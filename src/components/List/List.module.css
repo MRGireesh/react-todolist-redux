@@ -1,0 +1,53 @@
+.todoListBlock {
+    padding: 10px;
+}
+.allList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 0px 0px;
+}
+
+.singleTodo{
+     list-style: none;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px; 
+}
+.todoText {
+    text-align: start;
+    padding: 10px;
+    border-radius: 20px;
+    width: 270px;
+    flex: 1;
+    margin: 10px 0;;
+}
+.deleteButton {
+    padding: 10px;   
+    border-radius: 20px;
+    background-color: orangered;
+    border: 2px solid white;
+    margin: 10px;
+   }
+
+
+
+.addButton {
+    padding: 10px;   
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+}
+.inputValue {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inputform {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
